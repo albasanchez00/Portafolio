@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+:root{
+    --altura_header:5rem;
+    --color-primario:#c4b6a4;
+}
+html{
+    min-height: 100vh;
+}
+
+body{
+    height: 100%;
+    background-color: #777;
+}
+/*FIN AJUSTES GENERALES*/
+
+/*INICIO CABECERA*/
+header{
+    height: 5rem;
+    background-color: white;
+}
+
+.icons{
+    width: 2.5rem;
+}
+/*FIN CABECERA*/
+
+/*IMAGEN CABECERA*/
+.img-cabecera img{
+    width: 100px;
+    height: auto;
+}
+/*FIN IMAGEN CABECERA*/
