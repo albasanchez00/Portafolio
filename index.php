@@ -1,5 +1,5 @@
 <?php
-include_once 'page/header.php';
+include_once 'header.php';
 ?>
     <section class="section-body">
         <section class="section-presentacion">
@@ -8,44 +8,34 @@ include_once 'page/header.php';
                     <h2 class="text-center">¡Hola, soy Alba!</h2>
                     <p>Soy un desarrollador web y técnico microinformático con 22 años de experiencia en el fascinante mundo de la informática y la programación. Me apasiona profundizar en múltiples disciplinas como programación, informática, marketing, SEO y creación de contenido, abordándolas siempre con curiosidad y rigor técnico.</p>
                 </div>
-                <div class="div-presentacion espaciado">
-                    <h3>¿Qué me define?</h3>
-                    <ul>
-                        <li><strong>Enfoque integral:</strong> Combino mis conocimientos en programación con el diseño y el marketing digital para crear soluciones efectivas y atractivas.</li>
-                        <li><strong>Adaptabilidad:</strong> Aprendo rápido y disfruto manteniéndome al día con las últimas tendencias y tecnologías.</li>
-                        <li><strong>Comunicación global:</strong> Domino el español y el inglés, lo que me permite colaborar con equipos de diferentes partes del mundo.</li>
-                    </ul>
-                </div>
-                <div class="div-presentacion espaciado">
-                    <h3>Mi motivación</h3>
-                    <p>Crear proyectos que tengan impacto, resolver problemas complejos con soluciones creativas y compartir mi experiencia con otros apasionados de la tecnología. Disfruto cada paso del proceso de desarrollo, desde la planificación y el diseño hasta la implementación y la optimización.</p>
-                </div>
-
-                <div class="div-presentacion espaciado">
-                    <h3>Áreas de especialidad</h3>
-                    <ul>
-                        <li>Desarrollo de sitios web: Uso de HTML, CSS, JavaScript (y frameworks como React o Vue).</li>
-                        <li>Backend y bases de datos: Experiencia en entornos como Node.js, Python y gestión de datos con SQL y NoSQL.</li>
-                        <li>Diseño y UX: Conceptualización y diseño de interfaces intuitivas, aplicando principios de usabilidad.</li>
-                        <li>SEO & Marketing Digital: Optimización de contenidos y estrategias digitales para aumentar la visibilidad online.</li>
-                    </ul>
-                </div>
-                <div class="div-presentacion">
-                    <h3>¿Por qué trabajar conmigo?</h3>
-                    <p>Porque combino un enfoque técnico sólido con creatividad y disciplina para asegurar resultados de alta calidad. Me gusta retarme cada día y colaborar en proyectos que impulsen la innovación.</p>
-                </div>
             </div>
         </section>
 
-        <section>
-
-        </section>
-
-        <section>
-
+        <section class="section-proyectos-main">
+            <div class="div-general-proyectos-2">
+                <h1>Proyectos</h1>
+                <div class="div-proyectos-general-2">
+                    <div class="div-proyecto-2">
+                        <div class="col-pagCobalto-2">
+                            <h2>Cobalto AI</h2>
+                            <img src="../media/pagina-cobalto.png" alt="pagina generacion de imagenes IA">
+                            <a href="https://cobalto.alba.cursoceat.es/"><input type="submit" value="Visitar Web" class="btn-proyectos"></a>
+                        </div>
+                        <div class="col-pagCobalto-2">
+                            <h2>Pryme Abogados</h2>
+                            <img src="../media/pagina-pryme-abogados.png" alt="pagina bufete abogados">
+                            <a href="https://prymeabogados.alba.cursoceat.es/"><input type="submit" value="Visitar Web" class="btn-proyectos"></a>
+                        </div>
+                        <div class="col-pagCobalto-2">
+                            <h2>De Colores</h2>
+                            <img src="../media/pagina-deColores.png" alt="pagina tienda wordpress">
+                            <a href="https://decolores.alba.cursoceat.es/"><input type="submit" value="Visitar Web" class="btn-proyectos"></a>
+                        </div>
+                    </div>
+            </div>
         </section>
     </section>
 
 <?php
-include_once 'page/footer.php';
+include_once 'footer.php';
 ?>

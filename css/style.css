@@ -137,12 +137,13 @@ header{
     padding: 30px 0;
 }
 
-.div-general-presentacion, .div-general-proyectos {
+.div-general-presentacion, .div-general-proyectos-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--color_fondo);
+    border: 2px solid var(--color_secundario);
     height: auto;
     width: 65%;
     padding: 10px 0;
@@ -166,12 +167,6 @@ header{
     }
 }
 
-.section-presentacion picture img{
-        width: 328px;
-        height: auto;
-}
-{}
-
 
 .div-proyectos-general{
     display: flex;
@@ -182,12 +177,17 @@ header{
     padding: 10px 20px;
 }
 
-.div-proyecto{
+h1{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.div-proyecto, .div-proyecto-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .col-pagCobalto {
@@ -195,13 +195,32 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid var(--color_secundario);
+    padding: 10px 10px;
     h2{
+        padding-bottom: 10px;
         font-size: 20px;
     }
     img{
         width: 250px;
         height: auto;
+        border: 1px solid black;
     }
+    input{
+        cursor: pointer;
+    }
+    a{
+        padding-top: 10px;
+    }
+}
+
+.section-proyectos-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 40px;
 }
 
 .btn-proyectos{
@@ -218,10 +237,109 @@ header{
     border: 1px solid #3A3430FF;
 }
 
+/* INICIO SECCION INDEX PROYECTOS */
+.div-general-proyectos-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-proyectos-general-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div-proyecto-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    width: 90%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.col-pagCobalto-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--color_secundario);
+    padding: 10px 10px;
+    width: 300px;
+    h2{
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    img{
+        width: 220px;
+        height: auto;
+        border: 1px solid black;
+    }
+    input{
+        cursor: pointer;
+    }
+    a{
+        padding-top: 10px;
+    }
+}
+/* FIN SECCION INDEX PROYECTOS */
+
+
 
 /* INICIO PAGINA */
 
 
+/* INICIO PAGINA */
+
+.section-sobreMi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color_fondo);
+    height: auto;
+    width:100vw
+}
+
+.div-general, .div-general-proyectos-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color_fondo);
+    border: 2px solid var(--color_secundario);
+    height: auto;
+    width: 65%;
+    padding: 10px 0;
+}
+
+.section-sobreMi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.div-sobreMi{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    p{
+        width: 80%;
+    }
+}
+
+.section-sobreMi picture img{
+    width: 328px;
+    height: auto;
+}
 
 
 
