@@ -20,6 +20,7 @@ ul{
 .text-center{
     text-align: center;
 }
+
 :root{
     --altura_header:5rem;
     --color_fondo: #f1eee9;
@@ -29,6 +30,7 @@ ul{
     --padding_left_right: 20px;
     --altura_footer:15rem;
 }
+
 html{
     min-height: 100vh;
 }
@@ -135,7 +137,7 @@ header{
     padding: 30px 0;
 }
 
-.div-general-presentacion{
+.div-general-presentacion, .div-general-proyectos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,7 +148,7 @@ header{
     padding: 10px 0;
 }
 
-.section-presentacion{
+.section-presentacion, .section-proyectos{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -168,8 +170,56 @@ header{
         width: 328px;
         height: auto;
 }
+{}
 
 
+.div-proyectos-general{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.div-proyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.col-pagCobalto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 20px;
+    }
+    img{
+        width: 250px;
+        height: auto;
+    }
+}
+
+.btn-proyectos{
+    width: 100px;
+    height: 30px;
+    background-color: var(--color_primario);
+    color: var(--color_blanco);
+    border: 1px solid var(--color_secundario);
+}
+
+.btn-proyectos:hover{
+    background-color: var(--color_secundario);
+    color: var(--color_blanco);
+    border: 1px solid #3A3430FF;
+}
+
+
+/* INICIO PAGINA */
 
 
 
