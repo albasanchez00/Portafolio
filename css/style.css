@@ -28,7 +28,7 @@ ul{
     --color_secundario: #59524a;
     --color_blanco: white;
     --padding_left_right: 20px;
-    --altura_footer:15rem;
+    --altura_footer:12rem;
 }
 
 html{
@@ -295,24 +295,19 @@ h1{
 
 
 /* INICIO PAGINA */
-
-.section-sobreMi {
+.section-body-sobreMi{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background-color: var(--color_fondo);
+    align-items: center;
     height: auto;
-    width:100vw
+    width: 100vw;
 }
-
-.div-general, .div-general-proyectos-2 {
+.div-general-sobreMi {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--color_fondo);
-    border: 2px solid var(--color_secundario);
     height: auto;
     width: 65%;
     padding: 10px 0;
@@ -323,8 +318,9 @@ h1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-
+    height: auto;
+    width:100vw
+    border: 2px solid var(--color_secundario);
 }
 
 .div-sobreMi{

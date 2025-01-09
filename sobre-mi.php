@@ -1,7 +1,7 @@
 <?php
 include_once 'header.php';
 ?>
-<section class="section-body">
+<section class="section-body-sobreMi">
     <section class="section-sobreMi">
         <div class="div-general-sobreMi text-center">
             <div class="div-sobreMi espaciado">
@@ -35,7 +35,7 @@ include_once 'header.php';
                 <p>Porque combino un enfoque técnico sólido con creatividad y disciplina para asegurar resultados de alta calidad. Me gusta retarme cada día y colaborar en proyectos que impulsen la innovación.</p>
             </div>
         </div>
-        <picture><img src="media/img-alba-cv.jpg" alt=""></picture>
+        <picture><img src="media/foto-curriculum.jpeg" alt=""></picture>
     </section>
 
 
