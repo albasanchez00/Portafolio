@@ -161,9 +161,15 @@ header{
 .div-presentacion{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    h2{
+        padding: 20px;
+    }
     p{
         width: 80%;
+        padding-bottom: 20px;
     }
 }
 
@@ -300,17 +306,8 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: calc(100vh - var(--altura_header)) ;
     width: 100vw;
-}
-.div-general-sobreMi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 65%;
-    padding: 10px 0;
 }
 
 .section-sobreMi{
@@ -319,7 +316,17 @@ h1{
     justify-content: center;
     align-items: center;
     height: auto;
-    width:100vw
+    width:100vw;
+}
+
+.div-general-sobreMi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 60%;
+    padding: 12px 0;
     border: 2px solid var(--color_secundario);
 }
 
@@ -332,9 +339,27 @@ h1{
     }
 }
 
-.section-sobreMi picture img{
-    width: 328px;
-    height: auto;
+.section-sobreMi picture {
+    border: 2px solid var(--color_secundario);
+    border-left: none;
+    height: 550px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 10px;
+        p{
+            font-size: 13px;
+            width: 90%;
+        }
+    }
+    img{
+        width: 328px;
+        height: 480px;
+        border-bottom: 2px solid var(--color_secundario);
+    }
 }
 
 
@@ -358,6 +383,7 @@ footer{
     align-items: center;
     height: var(--altura_footer);
     background-color: var(--color_fondo);
+    position: static;
 }
 .container-footer{
     display: flex;

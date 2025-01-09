@@ -35,7 +35,13 @@ include_once 'header.php';
                 <p>Porque combino un enfoque técnico sólido con creatividad y disciplina para asegurar resultados de alta calidad. Me gusta retarme cada día y colaborar en proyectos que impulsen la innovación.</p>
             </div>
         </div>
-        <picture><img src="media/foto-curriculum.jpeg" alt=""></picture>
+        <picture>
+            <img src="media/foto-curriculum.jpeg" alt="">
+            <div>
+                <p><strong>Email:</strong> albasanchezolmedo00@gmail.com</p>
+                <p><strong>Teléfono:</strong> 615068547</p>
+            </div>
+        </picture>
     </section>
 
 

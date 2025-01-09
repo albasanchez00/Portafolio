@@ -6,7 +6,7 @@ include_once 'header.php';
             <div class="div-general-presentacion text-center">
                 <div class="div-presentacion espaciado">
                     <h2 class="text-center">¡Hola, soy Alba!</h2>
-                    <p>Soy un desarrollador web y técnico microinformático con 22 años de experiencia en el fascinante mundo de la informática y la programación. Me apasiona profundizar en múltiples disciplinas como programación, informática, marketing, SEO y creación de contenido, abordándolas siempre con curiosidad y rigor técnico.</p>
+                    <p class="text-center">Soy un <strong>desarrollador web y técnico microinformático</strong> con 22 años de experiencia en el fascinante mundo de la informática y la programación. Me apasiona <strong>profundizar en múltiples disciplinas como programación, informática, marketing, SEO y creación de contenido</strong>, abordándolas siempre con curiosidad y rigor técnico.</p>
                 </div>
             </div>
         </section>
