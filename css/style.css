@@ -117,7 +117,6 @@ header{
         background-color: var(--color_fondo);
         padding-right: var(--padding_left_right);
     }
-
 }
 /*FIN CABECERA */
 
@@ -126,11 +125,13 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: calc(100vh + var(--altura_header)) ;
     width: 100vw;
     padding: 30px 0;
 }
+/* FIN BODY */
 
+/* INICIO INDEX */
+/* INICIO SECCION INDEX PRESENTACION */
 .div-general-presentacion, .div-general-proyectos-2 {
     display: flex;
     flex-direction: column;
@@ -166,8 +167,9 @@ header{
         padding-bottom: 20px;
     }
 }
+/* FIN SECCION INDEX PRESENTACION */
 
-
+/* INICIO SECCION INDEX PROYECTOS */
 .div-proyectos-general{
     display: flex;
     flex-wrap: wrap;
@@ -190,54 +192,18 @@ h1{
     gap: 30px;
 }
 
-.col-pagCobalto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid var(--color_secundario);
-    padding: 10px 10px;
-    h2{
-        padding-bottom: 10px;
-        font-size: 20px;
+@media screen and (max-width: 1023px) {
+    .div-proyecto-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+        flex-wrap: nowrap;
+        }
     }
-    img{
-        width: 250px;
-        height: auto;
-        border: 1px solid black;
-    }
-    input{
-        cursor: pointer;
-    }
-    a{
-        padding-top: 10px;
-    }
-}
 
-.section-proyectos-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    padding-top: 40px;
-}
-
-.btn-proyectos{
-    width: 100px;
-    height: 30px;
-    background-color: var(--color_primario);
-    color: var(--color_blanco);
-    border: 1px solid var(--color_secundario);
-}
-
-.btn-proyectos:hover{
-    background-color: var(--color_secundario);
-    color: var(--color_blanco);
-    border: 1px solid #3A3430FF;
-}
-
-/* INICIO SECCION INDEX PROYECTOS */
+    /* INICIO SECCION INDEX PROYECTOS */
 .div-general-proyectos-2{
     display: flex;
     flex-direction: column;
@@ -288,13 +254,10 @@ h1{
     }
 }
 /* FIN SECCION INDEX PROYECTOS */
+/* FIN INDEX */
 
-
-
-/* INICIO PAGINA */
-
-
-/* INICIO PAGINA */
+/* INICIO PAGINAS*/
+/* INICIO PAGINA SOBRE MI*/
 .section-body-sobreMi{
     display: flex;
     flex-direction: column;
@@ -355,20 +318,57 @@ h1{
         border-bottom: 2px solid var(--color_secundario);
     }
 }
+/* FIN PAGINA SOBRE MI*/
 
+/* INICIO PAGINA PROYECTOS*/
+.col-pagCobalto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--color_secundario);
+    padding: 10px 10px;
+    h2{
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    img{
+        width: 250px;
+        height: auto;
+        border: 1px solid black;
+    }
+    input{
+        cursor: pointer;
+    }
+    a{
+        padding-top: 10px;
+    }
+}
 
+.section-proyectos-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 40px;
+}
 
+.btn-proyectos{
+    width: 100px;
+    height: 30px;
+    background-color: var(--color_primario);
+    color: var(--color_blanco);
+    border: 1px solid var(--color_secundario);
+}
 
-
-
-
-
-
-
-
-
-
-/* FIN BODY */
+.btn-proyectos:hover{
+    background-color: var(--color_secundario);
+    color: var(--color_blanco);
+    border: 1px solid #3A3430FF;
+}
+/* FIN PAGINA PROYECTOS*/
+/* FIN PAGINAS*/
 
 /*INICIO FOOTER */
 footer{

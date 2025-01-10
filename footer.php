@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 <script src="js/script.js"></script>
 <footer>
     <div class="col-footer">
