@@ -12,21 +12,21 @@ include_once 'header.php';
         </section>
 
         <section class="section-proyectos-main">
-            <div class="div-general-proyectos-2">
+            <div class="div-general-proyectos-desktop">
                 <h1>Proyectos</h1>
-                <div class="div-proyectos-general-2">
-                    <div class="div-proyecto-2">
-                        <div class="col-pagCobalto-2">
+                <div class="div-proyectos-general-desktop">
+                    <div class="div-proyecto-desktop div-proyecto-movil">
+                        <div class="col-pagCobalto-desktop col-pagCobalto-movil">
                             <h2>Cobalto AI</h2>
                             <img src="media/pagina-cobalto.png" alt="pagina generacion de imagenes IA">
                             <a href="https://cobalto.alba.cursoceat.es/"><input type="submit" value="Visitar Web" class="btn-proyectos"></a>
                         </div>
-                        <div class="col-pagCobalto-2">
+                        <div class="col-pagCobalto-desktop col-pagCobalto-movil">
                             <h2>Pryme Abogados</h2>
                             <img src="media/pagina-pryme-abogados.png" alt="pagina bufete abogados">
                             <a href="https://prymeabogados.alba.cursoceat.es/"><input type="submit" value="Visitar Web" class="btn-proyectos"></a>
                         </div>
-                        <div class="col-pagCobalto-2">
+                        <div class="col-pagCobalto-desktop col-pagCobalto-movil">
                             <h2>De Colores</h2>
                             <img src="media/pagina-deColores.png" alt="pagina tienda wordpress">
                             <a href="https://decolores.alba.cursoceat.es/"><input type="submit" value="Visitar Web" class="btn-proyectos"></a>
