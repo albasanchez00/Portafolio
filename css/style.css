@@ -31,12 +31,7 @@ ul{
     --altura_footer:12rem;
 }
 
-html{
-    min-height: 100vh;
-}
-
 body{
-    height: 100%;
     font-family: Verdana, Arial;
 }
 /* FIN AJUSTES GENERALES */
