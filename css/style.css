@@ -397,10 +397,39 @@ h1{
 /* FIN PAGINA PROYECTOS*/
 
 /* INICIO PAGINA CONTACTO*/
+.section-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        padding-bottom: 40px;
+    }
+}
 
-
-
-
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background-color: var(--color_fondo);
+    border-radius: 15px;
+    box-shadow: 0 0 20px var(--color_secundario);
+    text-align: left;
+    padding: 50px;
+}
+.group-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.col-form{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* FIN PAGINA CONTACTO*/
