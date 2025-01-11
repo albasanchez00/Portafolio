@@ -8,25 +8,24 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
     $subject = $_POST['subject'];
     $mensaje = $_POST['mensaje'];
-    $para = 'programacion12@ceatformacion.com';
+    $para = 'alba@alba.cursoceat.es';
 
     // Creamos cabecera
     $headers = 'From: ' . $email . "\r\n";
     $headers .= "Content-type: text/html; charset=utf-8\r\n";
 
     // Componemos cuerpo del correo
-    $msjCorreo = "Nombre: " . $nombre . "<br>";
     $msjCorreo .= "Email: " . $email . "<br>";
+    $msjCorreo = "Nombre: " . $nombre . "<br>";
     $msjCorreo .= "Asunto: " . $subject . "<br>";
     $msjCorreo .= "Mensaje: " . $mensaje . "<br>";
 
     // Enviamos correo
     if (mail($para, $subject, $msjCorreo, $headers)) {
+        header("Location: contacto.php");
         echo "<script language='javascript'>
                 alert('Mensaje enviado, muchas gracias.');
               </script>";
-        header("Location: contacto.php");
-        exit();
     } else {
         echo "<script language='javascript'>
                 alert('Fallo en el envío del mensaje.');

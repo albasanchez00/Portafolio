@@ -8,8 +8,8 @@
         <ul class="main-footer-1">
             <li><a href="index.php" class="menu-footer">Inicio</a></li>
             <li><a href="sobre-mi.php" class="menu">Sobre mi</a></li>
-            <li><a href="#" class="menu-footer">Proyectos</a></li>
-            <li><a href="#" class="menu-footer">Contacto</a></li>
+            <li><a href="proyectos.php" class="menu-footer">Proyectos</a></li>
+            <li><a href="contacto.php" class="menu-footer">Contacto</a></li>
         </ul>
     </div>
     <div class="col-footer">

@@ -24,7 +24,7 @@
                 <li><a href="index.php" class="menu">Inicio</a></li>
                 <li><a href="sobre-mi.php" class="menu">Sobre mi</a></li>
                 <li><a href="proyectos.php" class="menu">Proyectos</a></li>
-                <li><a href="#" class="menu">Contacto</a></li>
+                <li><a href="contacto.php" class="menu">Contacto</a></li>
             </ul>
         </nav>
     </header>
