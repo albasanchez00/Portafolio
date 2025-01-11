@@ -1,12 +1,12 @@
 <?php
 //Reseteamos variables a 0.
-$nombre = $email = $subject = $mensaje = $para = $headers = $msjCorreo = NULL;
+$nombre = $email = $subject = $mensaje = $para = $headers = $mensaje = NULL;
 
 if (isset($_POST['submit'])) {
     //Obtenemos valores input formulario
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];
-    $subject = $_POST['asunto'];
+    $subject = $_POST['subject'];
     $mensaje = $_POST['mensaje'];
     $para = 'albasanchezolmedo00@gmail.com';
 
@@ -24,10 +24,11 @@ if (isset($_POST['submit'])) {
     $msjCorreo .= "Mensaje: " . $mensaje;
     $msjCorreo .= "\r\n";
 
-    if (mail($para, $subject, $msjCorreo, $headers)) {
+    if (mail($para, $subject, $mensaje, $headers, $nombre)) {
         echo "<script language='javascript'>
             alert('Mensaje enviado, muchas gracias.');
          </script>";
+        header("Location:contacto.php");
     } else {
         echo "<script language='javascript'>
             alert('fallado');
